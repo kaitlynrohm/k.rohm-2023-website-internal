@@ -1,0 +1,23 @@
+/*This has all of the styling for the task.*/
+body{
+    /*This is constant across the body portion of the website*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header{
+    /*This is the headers styling*/
+    background-color: #011bacdf;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8vw;
+    position: fixed;    /*This keeps the header at the top of the screen even when scroling down.*/
+    width: 100%;
+    z-index: 999;
+}
+
+footer{
+    background-color: #ffa500;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 8vw;
+    width: 100%;
+}
