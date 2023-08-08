@@ -14,9 +14,33 @@
 <body>
     <!--This is where the main website goes. This page will have the three chalets
         a seperate page will have the club info-->
-    <header>
         <!--This is the header has the logo? and a nav bar.-->
-        <p>this is the header</p>
+        <header>
+            <!--This is the header has the logo? and a nav bar.-->
+            <nav class="navbar">
+                <a href="index.html">
+                    <img src="img/Maunga_Club_white.png" class="nav-logo">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
     </header>
     <section id="intro">
         <!--This is the intro. The background is an image with a black background as alt-->
@@ -34,6 +58,19 @@
     <footer>
 
     </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+
+
+    </script>
 </body>
 
 </html>
