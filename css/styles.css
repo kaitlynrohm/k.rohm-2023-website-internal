@@ -24,7 +24,39 @@ footer{
 
 h1{
     font-size: 60px;
+    padding: 10px;
     text-align: center;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px;
+    margin: 0 auto;
 }
 
 /*This is for the nav bar*/
@@ -138,14 +170,13 @@ a {
 #intro{
     background: black url(../img/maunga_club_cabin.jpg) /*url for image and centre no repeat for placement*/;
     background-size: cover;
-    height: 300px;
-    padding: 300px 0 100px;
+    padding: 200px 0 100px;
 }
 
 .intro-block{
-    background-color: #65c2ff;
+    background-color: #65c2ffdf;
     color: white;
-    height: 200px;
+    height: 270px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -165,4 +196,18 @@ a {
     min-width: 150px;
     text-align: center;
     text-decoration: none;
+}
+
+.button:hover{
+    background-color: #6262ff;
+}
+
+#Kākāpo{
+    background: black url(../img/kakapo/cabin_view.jpg);
+    background-size: cover;
+    padding: 200px 0 100px;
+}
+
+#about{
+    padding: 20px 0;
 }
