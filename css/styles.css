@@ -16,34 +16,35 @@ header{
 }
 
 footer{
-    background-color: #ffa500;
+    background-color: #ff8e24;
     font-family: Arial, Helvetica, sans-serif;
     height: 100px;
     width: 100%;
 }
 
 h1{
-    font-size: 60px;
-    padding: 10px;
+    font-size: 7vw;
     text-align: center;
 }
 
 h2{
-    font-size: 60px;
+    font-size: 7vw;
     text-align: center;
-    padding: 10px;
 }
 
 h3{
     font-size: 50px;
     text-align: center;
-    padding: 10px;
 }
 
 h4{
     font-size: 30px;
     text-align: center;
-    padding: 10px;
+}
+
+h5{
+    font-size: 20px;
+    text-align: center;
 }
 
 p{
@@ -174,13 +175,13 @@ a {
 }
 
 .intro-block{
-    background-color: #65c2ffdf;
+    background-color: #ff8e24df;
     color: white;
-    height: 270px;
+    height: 310px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px 0;
     text-align: center;
-    width: 900px;
+    width: 65%;
 }
 
 .intro-block a{
@@ -202,12 +203,26 @@ a {
     background-color: #6262ff;
 }
 
+.chalet{
+    background-color: #65c2ffdf;
+    color: white;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 65%;
+}
+
+#about{
+    padding: 20px 0;
+}
+
 #Kākāpo{
     background: black url(../img/kakapo/cabin_view.jpg);
     background-size: cover;
     padding: 200px 0 100px;
 }
 
-#about{
-    padding: 20px 0;
+.grid h2{
+    color: #0066ff;
 }
