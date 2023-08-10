@@ -59,6 +59,7 @@
         </div>
     </section>
     <section id="about">
+        <!--This has infomation on the club.  Done in Lorem Ipsum for display purposes-->
         <h3>About Maunga club</h3>
         <div class="grid">
             <div>
@@ -83,15 +84,17 @@
             </div>
         </div>
         
-    </section>
-    <section id="Kākāpo">
-        <!--This is the section with information about the Kākāpo chalet-->
-        <div class="chalet">
-            <h2>Kākāpo chalet</h2>
-        </div>
+        <a href="join.html" class="button">Join the club</a>   
     </section>
     <section>
-        <!--This is the information about the Kākāpo chalet-->
+        <!--This is the section on the Kākāpo chalet-->
+        <section id="Kākāpo">
+            <!--This is the section with information about the Kākāpo chalet-->
+            <div class="chalet">
+                <h2>Kākāpo chalet</h2>
+            </div>
+        </section>
+    
         <div class="grid">
             <div>
                 <h5>Maximum of</h5>
@@ -106,11 +109,28 @@
         </div>
         <article>
             <h3>Explore the mountain with all your friends</h3>
+            <!--This is a gallery with images of the chalet-->
             <a data-fancybox="gallery" href="img/kakapo/bunk_room.jpg" alt="Bunk room image"> <img src="img/kakapo/bunk_room_thumb.jpg" alt="Bunk room image"></a>
             <a data-fancybox="gallery" href="img/kakapo/cabin_exterior.jpg" alt="Cabin exterior image"> <img src="img/kakapo/cabin_exterior_thumb.jpg" alt="Cabin exterior image"></a>
             <a data-fancybox="gallery" href="img/kakapo/cabin_view.jpg" alt="Cabin view image"> <img src="img/kakapo/cabin_view_thumb.jpg" alt="Cabin view image"></a>
             <a data-fancybox="gallery" href="img/kakapo/hallway.jpg" alt="Hallway image"> <img src="img/kakapo/hallway_thumb.jpg" alt="Hallway image"></a>
+            <div class="grid">
+                <!--These are the features of the chalet-->
+                <div>
+                    <p class="feature">Largest of the chalets</p>
+                </div>
+                <div>
+                    <p class="feature">Large kitchen, dinning and living areas</p>
+                </div>
+                <div>
+                    <p class="feature">Great amenities!</p>
+                </div>
+            </div>
         </article>
+        <div>
+            <h4>Join Maunga club to rent a chalet</h4>
+        </div>
+        <a href="join.html" class="button">Join the club</a> 
     </section>
     <footer>
 
@@ -125,8 +145,14 @@
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
         }
+        const navLink = document.querySelectorAll(".nav-link");
 
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
 
+        function closeMenu() {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
     </script>
 </body>
 
