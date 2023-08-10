@@ -245,3 +245,9 @@ a {
 .feature{
     font-size: 30px;
 }
+
+#Pūkeko{
+    background: black url(../img/pukeko/chalet_exterior.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0 100px;
+}
