@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
     <!--This is the title displayed at the top of the browser-->
     <title>Maunga Club</title>
 </head>
@@ -38,7 +39,7 @@
                         <a href="#Kererū" class="nav-link">Kererū chalet</a>
                     </li>
                     <li class="nav-item">
-                        <a href="join.html" class="nav-link">Join the club</a>
+                        <a href="join.html" class="nav-link">About</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -233,25 +234,7 @@
     <footer>
 
     </footer>
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".nav-menu");
-
-        hamburger.addEventListener("click", mobileMenu);
-
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-        }
-        const navLink = document.querySelectorAll(".nav-link");
-
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-        }
-    </script>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>
