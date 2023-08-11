@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--This is the information for the browser-->
+    <!--This is the information for the browser-->
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!--This is the title displayed at the top of the browser-->
-    <title>Join Maunga club</title>
+    <title>Maunga Club - Join now!</title>
 </head>
 
 <body>
@@ -22,16 +25,7 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Kākāpo" class="nav-link">Kākāpo chalet</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Pūkeko" class="nav-link">Pūkeko chalet</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Kererū" class="nav-link">Kererū chalet</a>
-                </li>
-                <li class="nav-item">
-                    <a href="join.html" class="nav-link">Join the club</a>
+                    <a href="join.html" class="nav-link">About</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -41,10 +35,53 @@
             </div>
         </nav>
     </Header>
-    
+    <section id="join">
+        <!--The background is an image with a black background as alt (css)-->
+        <div class="join-block">
+            <h1>The Maunga club</h1>
+        </div>
+    </section>
+    <article>
+        <h3>An awesome experience for any gourp!</h3>
+        <!--Full galery-->
+        <a data-fancybox="gallery" href="img/kakapo/bunk_room.jpg" alt="Bunk room image"> <img src="img/kakapo/bunk_room_thumb.jpg" alt="Bunk room image"></a>
+        <a data-fancybox="gallery" href="img/kakapo/cabin_exterior.jpg" alt="Cabin exterior image"> <img src="img/kakapo/cabin_exterior_thumb.jpg" alt="Cabin exterior image"></a>
+        <a data-fancybox="gallery" href="img/kakapo/cabin_view.jpg" alt="Cabin view image"> <img src="img/kakapo/cabin_view_thumb.jpg" alt="Cabin view image"></a>
+        <a data-fancybox="gallery" href="img/kakapo/hallway.jpg" alt="Hallway image"> <img src="img/kakapo/hallway_thumb.jpg" alt="Hallway image"></a>
+        <a data-fancybox="gallery" href="img/pukeko/adult_bedroom.jpg" alt="Bedroom image"> <img src="img/pukeko/adult_bedroom_thumb.jpg" alt="Bedroom image"></a>
+        <a data-fancybox="gallery" href="img/pukeko/bathroom.jpg" alt="Bathroom image"> <img src="img/pukeko/bathroom_thumb.jpg" alt="Bathroom image"></a>
+        <a data-fancybox="gallery" href="img/pukeko/chalet_exterior.jpg" alt="Chalet exterior image"> <img src="img/pukeko/chalet_exterior_thumb.jpg" alt="Chalet exterior image"></a>
+        <a data-fancybox="gallery" href="img/pukeko/chalet_view.jpg" alt="Chalet view image"> <img src="img/pukeko/chalet_view_thumb.jpg" alt="Chalet view image"></a>
+        <a data-fancybox="gallery" href="img/kereru/adult_bedroom.jpg" alt="Bedroom image"> <img src="img/kereru/adult_bedroom_thumb.jpg" alt="Bedroom image"></a>
+        <a data-fancybox="gallery" href="img/kereru/cabin_exterior.jpg" alt="Cabin exterior image"> <img src="img/kereru/cabin_exterior_thumb.jpg" alt="Cabin exterior image"></a>
+        <a data-fancybox="gallery" href="img/kereru/kids_bedroom.jpg" alt="Bedroom image"> <img src="img/kereru/kids_bedroom_thumb.jpg" alt="Bedroom image"></a>
+        <a data-fancybox="gallery" href="img/kereru/kitchen.jpg" alt="kitchen image"> <img src="img/kereru/kitchen_thumb.jpg" alt="Kitchen image"></a>
+                
+    </article>
+    <form class="form1" action="">
+        <!--This is a form to submit information for joing Maunga club-->
+        <label for="firstName" class="first-name">First Name</label>
+        <input id="firstName" type="text">
+
+        <label for="lastName" class="last-name">Last Name</label>
+        <input id="lastName" type="text">
+
+        <label for="physicalAdrdess">Physical Address</label>
+        <input id="physicalAdress" type="text">
+
+        <label for="proofAdress">Proof of Address</label>
+        <input id="proofAddress" type="file">
+
+        <label for="proofId">Proof of ID</label>
+        <input id="proofId" type="file">
+
+        <button>Submit</button>
+    </form>
+
     <footer>
-        
+
     </footer>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>
