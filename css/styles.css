@@ -210,6 +210,10 @@ a {
     background-color: #6262ff;
 }
 
+.gallery-button{
+    margin: 20px;
+}
+
 .grid{
     display: grid;
     grid-gap: 1rem;
@@ -248,6 +252,12 @@ a {
 
 #Pūkeko{
     background: black url(../img/pukeko/chalet_exterior.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0 100px;
+}
+
+#Kererū{
+    background: black url(../img/kereru/cabin_exterior.jpg) no-repeat center;
     background-size: cover;
     padding: 200px 0 100px;
 }
