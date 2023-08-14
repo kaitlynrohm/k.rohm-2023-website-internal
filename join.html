@@ -55,9 +55,17 @@
         <a data-fancybox="gallery" href="img/kereru/adult_bedroom.jpg" alt="Bedroom image"> <img src="img/kereru/adult_bedroom_thumb.jpg" alt="Bedroom image"></a>
         <a data-fancybox="gallery" href="img/kereru/cabin_exterior.jpg" alt="Cabin exterior image"> <img src="img/kereru/cabin_exterior_thumb.jpg" alt="Cabin exterior image"></a>
         <a data-fancybox="gallery" href="img/kereru/kids_bedroom.jpg" alt="Bedroom image"> <img src="img/kereru/kids_bedroom_thumb.jpg" alt="Bedroom image"></a>
-        <a data-fancybox="gallery" href="img/kereru/kitchen.jpg" alt="kitchen image"> <img src="img/kereru/kitchen_thumb.jpg" alt="Kitchen image"></a>
-                
+        <a data-fancybox="gallery" href="img/kereru/kitchen.jpg" alt="kitchen image"> <img src="img/kereru/kitchen_thumb.jpg" alt="Kitchen image"></a>           
     </article>
+    <section>
+        <!--About joining the club and what you need-->
+        <h4>How to join the club</h4>
+        <p>
+            In the form below input your first name, last name and physical address where requested.
+            In the first choose file option add in proof of your address. This could be a copy of your power bill.
+            In the second choose file option put proof of ID. A copy of your drivers licence or passport.
+        </p>
+    </section>
     <form class="form1" action="">
         <!--This is a form to submit information for joing Maunga club-->
         <label for="firstName" class="first-name">First Name</label>
@@ -75,13 +83,15 @@
         <label for="proofId">Proof of ID</label>
         <input id="proofId" type="file">
 
-        <button>Submit</button>
+        <button onclick="enter()">Submit</button>
+        <input type="reset" class="reset">
+
     </form>
 
     <footer>
 
     </footer>
-    <script src="js/navbar.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 
 </html>

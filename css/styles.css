@@ -62,7 +62,8 @@ p{
 }
 
 section{
-    padding: 20px 0;
+    padding: 3vw 5vw;
+    text-align: center;
 }
 
 article{
@@ -184,7 +185,6 @@ a {
 .intro-block{
     background-color: #ff8e24df;
     color: white;
-    height: 310px;
     margin: 0 auto;
     padding: 5px 0;
     text-align: center;
@@ -229,7 +229,6 @@ a {
 .chalet{
     background-color: #65c2ffdf;
     color: white;
-    height: 150px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -271,7 +270,6 @@ a {
 .join-block{
     background-color: #ff8e24df;
     color: white;
-    height: 200;
     margin: 0 auto;
     padding: 5px 0;
     text-align: center;
@@ -298,24 +296,40 @@ form {
     background: lightgrey;
     padding: 0.7em;
     border: 0;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
   }
   form button:hover {
-    background: gold;
+    background: #a2d5ff;
   }
   
   label {
     text-align: right;
     display: block;
     padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1.5em;
   }
   
   input {
     width: 100%;
     padding: 0.7em;
     margin-bottom: 0.5rem;
+    font-size: 1.5em;
   }
   input:focus {
-    outline: 3px solid gold;
+    outline: 3px solid #a2d5ff;
+  }
+
+  .reset{
+    float: right;
+    background-color: lightgray;
+    border: 0;
+    padding: 0.7em;
+    font-size: 1.5em;
+  }
+
+  .reset:hover{
+    background: #a2d5ff;
   }
   
   @media (min-width: 400px) {
