@@ -1,7 +1,5 @@
 /*This has all of the styling for the task.*/
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,7 +14,7 @@ header{
     /*This is the headers styling*/
     background-color: #011bacdf;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
+    height: 8vw;
     position: fixed;    /*This keeps the header at the top of the screen even when scroling down.*/
     width: 100%;
     z-index: 999;
@@ -25,53 +23,58 @@ header{
 footer{
     background-color: #ff8e24;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
+    height: 8vw;
     width: 100%;
 }
 
 h1{
     font-size: 7vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    margin: 3vw 0 1.5vw;
 }
 
 h2{
     font-size: 7vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    margin: 0.5vw 0;
 }
 
 h3{
-    font-size: 50px;
+    font-size: 4vw;
     text-align: center;
-    padding: 0 10px 20px;
+    margin: 1vw 0;
 }
 
 h4{
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
-    padding: 5px 5px 10px;
+    margin: 0.5vw 0;
 }
 
 h5{
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
+    margin: 0.5vw 0;
 }
 
 p{
-    font-size: 16px;
+    font-size: 1vw;
     text-align: center;
+    margin: 1.5vw;
 }
 
 section{
-    padding: 3vw 5vw;
-    text-align: center;
+    padding-bottom: 4vw;
 }
 
 article{
-    padding: 10px 0;
+    padding: 1vw 0;
 }
 
 div{
-    padding: 0 0 15px;
+    padding: 0 0 1.5vw;
 }
 
 /*This is for the nav bar*/
@@ -131,7 +134,7 @@ a {
 }
 
 .nav-logo {
-    max-height: 100px;
+    max-height: 8vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -179,14 +182,16 @@ a {
 #intro{
     background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0 100px;
+    padding: 15vw 0 10vw;
 }
 
 .intro-block{
     background-color: #ff8e24df;
+    border: 2px solid #ff8e24df;
+    border-radius: 25px;
     color: white;
     margin: 0 auto;
-    padding: 5px 0;
+    padding: 0.5vw 0;
     text-align: center;
     width: 65%;
 }
@@ -198,10 +203,10 @@ a {
 .button{
     border: 2px solid #000079;
     color: #000079;
-    font-size: 18px;
-    margin: 5px;
-    padding: 10px;
-    min-width: 150px;
+    font-size: 1.5vw;
+    margin: 0.5vw 0.5vw 1.5vw;
+    padding: 0.8vw;
+    min-width: 18vw;
     text-align: center;
     text-decoration: none;
 }
@@ -211,14 +216,14 @@ a {
 }
 
 .gallery-button{
-    margin: 20px;
+    margin: 2vw;
 }
 
 .grid{
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 20px;
+    padding: 2vw;
     margin: 0 auto;
 }
 
@@ -228,50 +233,55 @@ a {
 
 .chalet{
     background-color: #65c2ffdf;
+    border: 2px solid #65c2ffdf;
+    border-radius: 25px;
     color: white;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2vw;
     text-align: center;
     width: 65%;
 }
 
 #about{
-    padding: 20px 0;
+    padding: 4vw 0;
 }
 
 #Kākāpo{
     background: black url(../img/kakapo/cabin_view.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0 100px;
+    padding: 15vw 0 10vw;
+    width: 100%;
 }
 
 .feature{
-    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 #Pūkeko{
     background: black url(../img/pukeko/chalet_exterior.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0 100px;
+    padding: 15vw 0 10vw;
 }
 
 #Kererū{
     background: black url(../img/kereru/cabin_exterior.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0 100px;
+    padding: 15vw 0 10vw;
 }
 
 #join{
     background: black url(../img/mountain_view_light.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0 100px;
+    padding: 15vw 0 10vw;
 }
 
 .join-block{
     background-color: #ff8e24df;
+    border: 2px solid #ff8e24df;
+    border-radius: 25px;
     color: white;
     margin: 0 auto;
-    padding: 5px 0;
+    padding: 2vw 0;
     text-align: center;
     width: 65%;
 }
