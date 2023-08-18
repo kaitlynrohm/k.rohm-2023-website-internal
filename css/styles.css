@@ -21,6 +21,7 @@ header{
 }
 
 footer{
+    /*These are the syles for the footer*/
     background-color: #ff8e24;
     font-family: Arial, Helvetica, sans-serif;
     height: 8vw;
@@ -28,6 +29,7 @@ footer{
 }
 
 h1{
+    /*The styles for h1 use a different font to make the titles stand out*/
     font-size: 7vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -35,6 +37,8 @@ h1{
 }
 
 h2{
+    /*This uses the same font as h1 to make them stand out aswell. 
+    They aren't h1 because they're not the main title*/
     font-size: 7vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -110,7 +114,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #ffffff;
 }
 
 .nav-menu {
@@ -138,6 +142,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    /*This styling will come into play when the screen is at smaller size*/
     .nav-menu {
         position: fixed;
         left: -100%;
