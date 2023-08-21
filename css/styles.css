@@ -5,7 +5,7 @@
 
 body{
     /*This is constant across the body portion of the website*/
-    background-color: #f1f9fc;
+    background-color: #000838;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -46,24 +46,28 @@ h2{
 }
 
 h3{
+    color: white;
     font-size: 4vw;
     text-align: center;
     margin: 1vw 0;
 }
 
 h4{
+    color: white;
     font-size: 3vw;
     text-align: center;
     margin: 0.5vw 0;
 }
 
 h5{
+    color: white;
     font-size: 2vw;
     text-align: center;
     margin: 0.5vw 0;
 }
 
 p{
+    color: white;
     font-size: 1vw;
     text-align: center;
     margin: 1.5vw;
@@ -206,8 +210,8 @@ a {
 }
 
 .button{
-    border: 2px solid #000079;
-    color: #000079;
+    border: 2px solid #6262ff;
+    color: #6262ff;
     font-size: 1.5vw;
     margin: 0.5vw 0.5vw 1.5vw;
     padding: 0.8vw;
@@ -217,7 +221,7 @@ a {
 }
 
 .button:hover{
-    background-color: #6262ff;
+    background-color: #000079;
 }
 
 .gallery-button{
@@ -367,3 +371,25 @@ form {
       width: calc(100% - 200px);
     }
   }  
+
+/*Styling snowflakes falling throughout the pages
+This was done using https://webdesign.tutsplus.com/how-to-create-animated-snow-on-a-website-with-css-and-javascript--cms-93562t
+as a tutorial
+*/
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.snowflake {
+    position: fixed;
+    background-color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
